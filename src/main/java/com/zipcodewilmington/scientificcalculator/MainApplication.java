@@ -29,10 +29,3 @@ public class MainApplication {
         Double userInput = Double.valueOf(scanner.nextLine());
         return userInput;
     }
-    public static void printNumber(){
-
-    }
-
-    }
-
-
