@@ -19,8 +19,8 @@ public class TestMainApplication {
 
     @Test
     public void testSubtraction() {
-        assertEquals(Double.valueOf(5.0), testCoreFunctions.basicoperations(2,3));
-        assertEquals(Double.valueOf(1000.0), testCoreFunctions.basicoperations(565,435));
+        assertEquals(Double.valueOf(-5.0), testCoreFunctions.basicoperations("-", -10, 5));
+        assertEquals(Double.valueOf(1000.0), testCoreFunctions.basicoperations("-", 2000, 1000));
     }
 
     @Test
